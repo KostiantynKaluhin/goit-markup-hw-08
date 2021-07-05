@@ -1,0 +1,52 @@
+.subscribe-form {
+  @media screen and (min-width: $desktop) {
+    display: flex;
+  }
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+  }
+}
+
+.subscribe-form__icon {
+  margin-left: 10px;
+}
+.subscribe-form__button {
+  display: flex;
+  align-items: center;
+  padding: 10px 29px;
+  margin: 0 auto;
+}
+.subscribe {
+  @media screen and (min-width: $tablet) {
+    text-align: center;
+  }
+  @media screen and (min-width: $desktop) {
+    text-align: start;
+  }
+}
+
+.subscribe-form__input {
+  width: 100%;
+  min-height: 50px;
+
+  margin-bottom: 20px;
+  padding: 16px 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: var(--background-black);
+  color: var(--white-color);
+  font: var(--main-font);
+  @media screen and (min-width: $tablet) {
+    width: 450px;
+    @media screen and (min-width: $desktop) {
+      margin-right: 12px;
+      margin-bottom: 0;
+      width: 358px;
+    }
+  }
+}

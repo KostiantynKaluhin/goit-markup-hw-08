@@ -1,0 +1,4 @@
+@mixin centerFlex($type: center) {
+  display: flex;
+  justify-content: $type;
+}

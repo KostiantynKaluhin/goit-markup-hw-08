@@ -1,0 +1,41 @@
+.page-foter {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--background-black);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.social-foter {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width: $desktop) {
+    margin-right: 93px;
+  }
+}
+.container-foter {
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    padding-left: 76px;
+    padding-right: 76px;
+  }
+  @media screen and (min-width: $desktop) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.foter-text {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-weight: 700;
+}
