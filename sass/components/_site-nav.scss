@@ -5,6 +5,9 @@
   @media screen and (max-width: 767px) {
     justify-content: space-between;
   }
+  @media screen and (min-width: $tablet) {
+    justify-content: center;
+  }
 }
 .site-nav {
   display: flex;
@@ -12,6 +15,9 @@
 
   @media screen and (max-width: 767px) {
     display: none;
+  }
+  @media screen and (min-width: $tablet) {
+    margin-right: 75px;
   }
 }
 .site-nav__item:not(:last-child) {
