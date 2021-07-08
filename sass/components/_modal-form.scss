@@ -102,12 +102,15 @@
   }
 }
 .checkbox {
-  @include centerFlex;
+  display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   cursor: pointer;
   margin-bottom: 30px;
+  @media screen and (min-width: $desktop) {
+    font-size: 14px;
+  }
 }
 .modal-form__policy {
   position: absolute;

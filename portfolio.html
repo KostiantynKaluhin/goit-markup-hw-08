@@ -19,28 +19,30 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container nav-container">
         <a href="./index.html" class="logo"
           ><span class="logo__lebel">Web</span>Studio</a
         >
+
         <nav>
           <ul class="site-nav list">
             <li class="site-nav__item">
-              <a href="./index.html" class="site-nav__link">Студия</a>
+              <a
+                href="./index.html"
+                class="site-nav__link site-nav__link--current"
+                >Студия</a
+              >
             </li>
             <li class="site-nav__item">
-              <a
-                href="./portfolio.html"
-                class="site-nav__link site-nav__link--current"
-                >Портфолио</a
-              >
+              <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
             </li>
             <li class="site-nav__item">
               <a href="#" class="site-nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
+
         <ul class="contacts list">
           <li class="contacts__item">
             <a class="contacts__link" href="mailto:info@devstudio.com">
@@ -59,8 +61,78 @@
             >
           </li>
         </ul>
+        <button type="button" class="mobile-menu__open">
+          <svg
+            width="24"
+            height="16"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use
+              class="site-nav__menu-icon"
+              href="./images/symbol-defs.svg#menu"
+            ></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mobile-menu is-open">
+        <div class="container">
+          <button type="button" class="mobile-menu__close">
+            <svg width="19" height="19">
+              <use href="./images/symbol-defs.svg#menu-close"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="mobile-nav list">
+              <li class="mobile-nav__item">
+                <a href="./index.html" class="mobile-nav__link">Студия</a>
+              </li>
+              <li class="mobile-nav__item">
+                <a
+                  href="./portfolio.html"
+                  class="mobile-nav__link mobile-nav__link--active"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="mobile-nav__item">
+                <a href="#" class="mobile-nav__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="mobail-position">
+            <ul class="mobile-contacts list">
+              <li class="mobile-contacts__item">
+                <a
+                  href="tel:+380961111111"
+                  class="mobile-contacts__link mobile-contacts__link--active"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+              <li class="mobile-contacts__item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile-contacts__link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-social list">
+              <li class="mobile-social__item">
+                <a href="#" class="mobile-social__link">Instagram</a>
+              </li>
+              <li class="mobile-social__item">
+                <a href="#" class="mobile-social__link">Twitter</a>
+              </li>
+              <li class="mobile-social__item">
+                <a href="#" class="mobile-social__link">Facebook</a>
+              </li>
+              <li class="mobile-social__item">
+                <a href="#" class="mobile-social__link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
     <main>
       <section class="section">
         <div class="container">
@@ -112,7 +184,7 @@
                         ./images/portf1-mobile-1x-min.jpg 1x,
                         ./images/portf1-mobile-2x-min.jpg 2x
                       "
-                      media="(min-width: 480px)"
+                      media="(min-width: 320px)"
                     />
                     <img
                       class="portfolio__image"
@@ -157,7 +229,7 @@
                         ./images/portf2-mobile-1x-min.jpg 1x,
                         ./images/portf2-mobile-2x-min.jpg 2x
                       "
-                      media="(min-width: 480px)"
+                      media="(min-width: 320px)"
                     />
                     <img
                       class="portfolio__image"
@@ -203,7 +275,7 @@
                         ./images/portf3-mobile-1x-min.jpg 1x,
                         ./images/portf3-mobile-2x-min.jpg 2x
                       "
-                      media="(min-width: 480px)"
+                      media="(min-width: 320px)"
                     />
                     <img
                       class="portfolio__image"
@@ -248,7 +320,7 @@
                         ./images/portf4-mobile-1x-min.jpg 1x,
                         ./images/portf4-mobile-2x-min.jpg 2x
                       "
-                      media="(min-width: 480px)"
+                      media="(min-width: 320px)"
                     />
                     <img
                       class="portfolio__image"
@@ -293,7 +365,7 @@
                         ./images/portf5-mobile-1x-min.jpg 1x,
                         ./images/portf5-mobile-2x-min.jpg 2x
                       "
-                      media="(min-width: 480px)"
+                      media="(min-width: 320px)"
                     />
                     <img
                       class="portfolio__image"
@@ -338,7 +410,7 @@
                         ./images/portf6-mobile-1x-min.jpg 1x,
                         ./images/portf6-mobile-2x-min.jpg 2x
                       "
-                      media="(min-width: 480px)"
+                      media="(min-width: 320px)"
                     />
                     <img
                       class="portfolio__image"
@@ -383,7 +455,7 @@
                         ./images/portf7-mobile-1x-min.jpg 1x,
                         ./images/portf7-mobile-2x-min.jpg 2x
                       "
-                      media="(min-width: 480px)"
+                      media="(min-width: 320px)"
                     />
                     <img
                       class="portfolio__image"
@@ -428,7 +500,7 @@
                         ./images/portf8-mobile-1x-min.jpg 1x,
                         ./images/portf8-mobile-2x-min.jpg 2x
                       "
-                      media="(min-width: 480px)"
+                      media="(min-width: 320px)"
                     />
                     <img
                       class="portfolio__image"
@@ -473,7 +545,7 @@
                         ./images/portf9-mobile-1x-min.jpg 1x,
                         ./images/portf9-mobile-2x-min.jpg 2x
                       "
-                      media="(min-width: 480px)"
+                      media="(min-width: 320px)"
                     />
                     <img
                       class="portfolio__image"
@@ -587,5 +659,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
