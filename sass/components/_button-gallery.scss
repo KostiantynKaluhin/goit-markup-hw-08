@@ -14,9 +14,7 @@
 }
 
 .button-gallery__item:nth-last-child(n + 3) {
-  @media screen and (max-width: 767px) {
-    margin-bottom: 15px;
-  }
+  margin-bottom: 15px;
 }
 .button-gallery__btn {
   min-height: 38px;

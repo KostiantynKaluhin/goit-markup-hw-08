@@ -5,18 +5,22 @@
   font-size: 14px;
   line-height: 1.7;
 }
-.social-foter {
-  @media screen and (max-width: 767px) {
-    margin-bottom: 60px;
+.foter-nav {
+  margin-bottom: 60px;
+  @media screen and (min-width: $tablet) {
+    margin-bottom: 0;
   }
+}
+.social-foter {
+  margin-bottom: 60px;
+
   @media screen and (min-width: $desktop) {
     margin-right: 93px;
   }
 }
 .container-foter {
-  @media screen and (max-width: 767px) {
-    text-align: center;
-  }
+  text-align: center;
+
   @media screen and (min-width: $tablet) {
     display: flex;
     flex-wrap: wrap;
@@ -24,6 +28,7 @@
     justify-content: center;
     padding-left: 76px;
     padding-right: 76px;
+    text-align: left;
   }
   @media screen and (min-width: $desktop) {
     padding-right: 0;
